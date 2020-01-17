@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-17T22:20:15.547Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0" version="12.5.5" etag="ZulaNkG4B0AHIP3OEQ9t" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-01-17T22:21:34.336Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0" version="12.5.5" etag="hwkV7ckkC9aTlGFurAje" type="github" pages="4">
   <diagram id="6ea94d27-68a0-82f6-574a-6ad052f4ca6a" name="2018-arch">
     <mxGraphModel dx="946" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -184,6 +184,9 @@
         </mxCell>
         <mxCell id="eEaScWfvM1-LNOqBu0Nc-123" value="Vmatrix API" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="560" y="433" width="73.5" height="67" as="geometry"/>
+        </mxCell>
+        <mxCell id="eEaScWfvM1-LNOqBu0Nc-124" value="Tools" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.connect;fillColor=#759C3E;gradientColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="474" y="525" width="65" height="49" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
