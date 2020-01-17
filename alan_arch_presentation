@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-17T23:00:00.693Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0" version="12.5.5" etag="vQttdzgEUxYEf8CB-BOg" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-01-17T23:00:12.715Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0" version="12.5.5" etag="sSmuiVcs-tvODRZsrvNV" type="github" pages="4">
   <diagram id="6ea94d27-68a0-82f6-574a-6ad052f4ca6a" name="2018-arch">
     <mxGraphModel dx="946" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -621,7 +621,7 @@
           <mxGeometry x="33.5" y="630" width="306.5" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="l_kfAvqBsxpHlDPu4rbd-0" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="vFX44QNQEFdcGG9D8G-t-1">
-          <mxGeometry x="444.5" y="580" width="175.5" height="70" as="geometry"/>
+          <mxGeometry x="444.5" y="580" width="210" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="GA2-Wa67YBZ0ddgT-HZb-0" value="Kubernetes containers" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontSize=12;" vertex="1" parent="vFX44QNQEFdcGG9D8G-t-1">
           <mxGeometry x="450" y="590" width="80" height="61" as="geometry"/>
@@ -632,7 +632,7 @@
         <mxCell id="GA2-Wa67YBZ0ddgT-HZb-2" value="static/ analysis" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.instances;fillColor=#F58534;gradientColor=none;fontSize=12;" vertex="1" parent="vFX44QNQEFdcGG9D8G-t-1">
           <mxGeometry x="432.5" y="436" width="60" height="63" as="geometry"/>
         </mxCell>
-        <mxCell id="CBtSUU0v_kiZW0MvTKfv-2" value="Kubernetes containers" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontSize=12;" vertex="1" parent="vFX44QNQEFdcGG9D8G-t-1">
+        <mxCell id="CBtSUU0v_kiZW0MvTKfv-2" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontSize=12;" vertex="1" parent="vFX44QNQEFdcGG9D8G-t-1">
           <mxGeometry x="520" y="590" width="80" height="61" as="geometry"/>
         </mxCell>
       </root>
