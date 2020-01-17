@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-17T23:01:48.289Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0" version="12.5.5" etag="OHvFq-K_o5dC2uLrHWb2" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-01-17T23:04:21.630Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0" version="12.5.5" etag="-N0v8HR9TS6IStZ9Uob4" type="github" pages="4">
   <diagram id="6ea94d27-68a0-82f6-574a-6ad052f4ca6a" name="2018-arch">
     <mxGraphModel dx="946" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -209,7 +209,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UJynYN2xbu05XoXMdB6g" name="2019-arch">
-    <mxGraphModel dx="946" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="LqdulkbBa5x-wexAs4eT-0"/>
         <mxCell id="LqdulkbBa5x-wexAs4eT-1" parent="LqdulkbBa5x-wexAs4eT-0"/>
@@ -438,7 +438,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4KstIyJ3iFtL2gZuEx-Z" name="2020-arch">
-    <mxGraphModel dx="946" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="vFX44QNQEFdcGG9D8G-t-0"/>
         <mxCell id="vFX44QNQEFdcGG9D8G-t-1" parent="vFX44QNQEFdcGG9D8G-t-0"/>
@@ -615,8 +615,8 @@
         <mxCell id="BbLxVqPoWrB_q5A7pJ91-2" value="General-purpose Kubernetes containers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="vFX44QNQEFdcGG9D8G-t-1">
           <mxGeometry x="432.5" y="363.5" width="115" height="6.5" as="geometry"/>
         </mxCell>
-        <mxCell id="ie0N9zch2FyMLkFvMnWs-0" value="&amp;nbsp;- health checks&lt;br&gt;&amp;nbsp;- Device mgmt&lt;br&gt;&lt;div&gt;&amp;nbsp;- dynamic job&lt;/div&gt;&lt;div&gt;- Account mgmt&lt;/div&gt;&lt;div&gt;- Device allocation&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="vFX44QNQEFdcGG9D8G-t-1">
-          <mxGeometry x="4" y="450" width="100" height="90" as="geometry"/>
+        <mxCell id="ie0N9zch2FyMLkFvMnWs-0" value="&amp;nbsp;- health checks&lt;br&gt;&amp;nbsp;- Device mgmt&lt;br&gt;&lt;div&gt;&amp;nbsp;- dynamic job&lt;/div&gt;&lt;div&gt;- Account mgmt&lt;/div&gt;&lt;div&gt;- Device allocation&lt;br&gt;&lt;/div&gt;&lt;div&gt;- International&lt;br&gt;&lt;/div&gt;&lt;div&gt;- better mgmt&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;" vertex="1" parent="vFX44QNQEFdcGG9D8G-t-1">
+          <mxGeometry x="4" y="450" width="100" height="120" as="geometry"/>
         </mxCell>
         <mxCell id="BDaHWQ1WLAuF3AAPk4gb-0" value="Solo boards" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="vFX44QNQEFdcGG9D8G-t-1">
           <mxGeometry x="33.5" y="630" width="306.5" height="90" as="geometry"/>
