@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-18T01:38:33.325Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0" version="12.5.5" etag="E1eSZ35riq8L0zYXy75e" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-01-18T01:38:47.604Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0" version="12.5.5" etag="ExZNBZtI_GD6qK5cHDoG" type="github" pages="4">
   <diagram id="6ea94d27-68a0-82f6-574a-6ad052f4ca6a" name="2018-arch">
     <mxGraphModel dx="946" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -209,7 +209,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UJynYN2xbu05XoXMdB6g" name="2019-arch">
-    <mxGraphModel dx="946" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="LqdulkbBa5x-wexAs4eT-0"/>
         <mxCell id="LqdulkbBa5x-wexAs4eT-1" parent="LqdulkbBa5x-wexAs4eT-0"/>
@@ -251,8 +251,8 @@
         <mxCell id="gOWd6LkGMHZonULI2Tsz-9" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="LqdulkbBa5x-wexAs4eT-1">
           <mxGeometry x="385" y="33" width="100" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="gOWd6LkGMHZonULI2Tsz-10" value="Auto UI" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="LqdulkbBa5x-wexAs4eT-1">
-          <mxGeometry x="409.5" y="111" width="60" height="20" as="geometry"/>
+        <mxCell id="gOWd6LkGMHZonULI2Tsz-10" value="NowSecure One UI" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="LqdulkbBa5x-wexAs4eT-1">
+          <mxGeometry x="409.5" y="111" width="120" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="gOWd6LkGMHZonULI2Tsz-12" value="Intel UI" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="LqdulkbBa5x-wexAs4eT-1">
           <mxGeometry x="236.5" y="120" width="50" height="20" as="geometry"/>
