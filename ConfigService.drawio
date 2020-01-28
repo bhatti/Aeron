@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-28T18:20:10.476Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0" etag="17PxqPY9FJrlzLoWZFaH" version="12.6.1" type="github">
+<mxfile host="www.draw.io" modified="2020-01-28T18:21:15.674Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0" etag="JuBu1R-W1SGCGd8ZcN5V" version="12.6.1" type="github">
   <diagram id="IsnPoK5MagyiCWdA0JYq" name="Page-1">
     <mxGraphModel dx="946" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -60,6 +60,9 @@
         </mxCell>
         <mxCell id="Tg_Q_-GsLaCHAvEcouOj-4" value="DB" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
           <mxGeometry x="210" y="232" width="50" height="37" as="geometry"/>
+        </mxCell>
+        <mxCell id="Tg_Q_-GsLaCHAvEcouOj-8" value="Refresh" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="212" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
