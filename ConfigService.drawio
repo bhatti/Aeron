@@ -1,13 +1,13 @@
-<mxfile host="www.draw.io" modified="2020-01-28T18:21:15.674Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0" etag="JuBu1R-W1SGCGd8ZcN5V" version="12.6.1" type="github">
+<mxfile host="www.draw.io" modified="2020-01-28T22:20:47.989Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0" etag="Kk4t7jyySZQa7voKi018" version="12.6.1" type="github">
   <diagram id="IsnPoK5MagyiCWdA0JYq" name="Page-1">
     <mxGraphModel dx="946" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="Tg_Q_-GsLaCHAvEcouOj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_6uwvzbpBUcutJMh2Iwz-1" target="Tg_Q_-GsLaCHAvEcouOj-1">
+        <mxCell id="Tg_Q_-GsLaCHAvEcouOj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_6uwvzbpBUcutJMh2Iwz-1" target="Tg_Q_-GsLaCHAvEcouOj-1" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="Tg_Q_-GsLaCHAvEcouOj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="_6uwvzbpBUcutJMh2Iwz-1" target="Tg_Q_-GsLaCHAvEcouOj-4">
+        <mxCell id="Tg_Q_-GsLaCHAvEcouOj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="_6uwvzbpBUcutJMh2Iwz-1" target="Tg_Q_-GsLaCHAvEcouOj-4" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="_6uwvzbpBUcutJMh2Iwz-1" value="Centralized Config Service" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.db_on_instance;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
@@ -55,13 +55,13 @@
         <mxCell id="_6uwvzbpBUcutJMh2Iwz-10" value="Config Stub" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ami;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="450" y="52" width="50" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="Tg_Q_-GsLaCHAvEcouOj-1" value="Static IDs (Git)" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.git_repository;" vertex="1" parent="1">
+        <mxCell id="Tg_Q_-GsLaCHAvEcouOj-1" value="Static Yaml (Git)" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.git_repository;" parent="1" vertex="1">
           <mxGeometry x="450" y="217" width="50" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="Tg_Q_-GsLaCHAvEcouOj-4" value="DB" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
+        <mxCell id="Tg_Q_-GsLaCHAvEcouOj-4" value="DB" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
           <mxGeometry x="210" y="232" width="50" height="37" as="geometry"/>
         </mxCell>
-        <mxCell id="Tg_Q_-GsLaCHAvEcouOj-8" value="Refresh" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Tg_Q_-GsLaCHAvEcouOj-8" value="Refresh" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="380" y="212" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
