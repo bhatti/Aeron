@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-06T17:53:55.306Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0" etag="Jdd43OYfJw_kXvmTnGmR" version="12.6.5" type="github">
+<mxfile host="www.draw.io" modified="2020-02-06T17:54:44.557Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:72.0) Gecko/20100101 Firefox/72.0" etag="RAFTIgVK7Xp_dpIgje60" version="12.6.5" type="github">
   <diagram id="QFNICSCTPkYUP-uv8fpC" name="Page-1">
     <mxGraphModel dx="1290" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -83,6 +83,9 @@
         </mxCell>
         <mxCell id="znhJKs_x1snLGu4U3SmE-7" value="6" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="40" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="znhJKs_x1snLGu4U3SmE-8" value="may fail CI based on score" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="163" width="76.5" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
