@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-29T20:14:47.430Z" agent="5.0 (Macintosh)" etag="gYVMovYbvJClPUFhzFuF" version="12.9.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-03-29T20:21:36.736Z" agent="5.0 (Macintosh)" etag="C1wQgWdRnaxCYi-a8gl3" version="12.9.4" type="github" pages="2">
   <diagram id="yXM54rgLqPtb9FQqafVF" name="Architecture">
     <mxGraphModel dx="1005" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -227,14 +227,26 @@
         <mxCell id="xOxyOyOnQ2RIrZKTn9IS-0" value="&lt;h1&gt;Users&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- id (PK)&lt;br&gt;- email&lt;br&gt;- password&lt;br&gt;- created_time&lt;br&gt;- updated_time&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="OkEBHj06dpLLMknfeyw1-1">
           <mxGeometry x="90" y="60" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="xOxyOyOnQ2RIrZKTn9IS-1" value="Assuming password is encrypted with strong encryption with salt" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="OkEBHj06dpLLMknfeyw1-1">
+        <mxCell id="xOxyOyOnQ2RIrZKTn9IS-1" value="&lt;div align=&quot;left&quot;&gt;Assuming password is encrypted with strong encryption with salt&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="OkEBHj06dpLLMknfeyw1-1">
           <mxGeometry x="270" y="80" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xOxyOyOnQ2RIrZKTn9IS-2" value="&lt;h1&gt;Emails&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- id (PK)&lt;br&gt;- external_id (Unique)&lt;br&gt;- user_id&lt;br&gt;- flags (READ|DRAFT|SENT|DELETED, etc)&lt;br&gt;- to&lt;br&gt;- from&lt;br&gt;- subject&lt;br&gt;- message&lt;br&gt;- created_time&lt;br&gt;- updated_time&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="OkEBHj06dpLLMknfeyw1-1">
-          <mxGeometry x="90" y="260" width="260" height="220" as="geometry" />
+          <mxGeometry x="90" y="210" width="260" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="xOxyOyOnQ2RIrZKTn9IS-3" value="Assuming password is encrypted with strong encryption with salt" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="OkEBHj06dpLLMknfeyw1-1">
-          <mxGeometry x="400" y="300" width="180" height="80" as="geometry" />
+        <mxCell id="xOxyOyOnQ2RIrZKTn9IS-3" value="&lt;div align=&quot;left&quot;&gt;The external_id would use 3rd party identifier for eliminating duplicate messages and flags would provide state management and efficient query access&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="OkEBHj06dpLLMknfeyw1-1">
+          <mxGeometry x="360" y="250" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8OVAut1-e0P_HhH9-YBp-0" value="&lt;h1&gt;Attachments&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- id (PK)&lt;br&gt;- email_id&lt;br&gt;- content_type&lt;br&gt;- content_length&lt;br&gt;- blob&lt;br&gt;- created_time&lt;br&gt;- updated_time&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="OkEBHj06dpLLMknfeyw1-1">
+          <mxGeometry x="90" y="420" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8OVAut1-e0P_HhH9-YBp-1" value="Attachments would have one-to-many relationships with emails" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="OkEBHj06dpLLMknfeyw1-1">
+          <mxGeometry x="360" y="430" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8OVAut1-e0P_HhH9-YBp-2" value="&lt;h1&gt;Database Scalability&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- sharding by user_id&lt;br&gt;- read replicas for quick inbox access&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="OkEBHj06dpLLMknfeyw1-1">
+          <mxGeometry x="80" y="590" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8OVAut1-e0P_HhH9-YBp-3" value="&lt;h1&gt;Search&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Search would use reverse index APIs for scalability&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="OkEBHj06dpLLMknfeyw1-1">
+          <mxGeometry x="400" y="590" width="260" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
