@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-29T20:36:49.102Z" agent="5.0 (Macintosh)" etag="1q2_jjLEFbtoB_GE98TU" version="12.9.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-03-29T20:38:17.059Z" agent="5.0 (Macintosh)" etag="7i_sSrSH61tMiq67l9py" version="12.9.4" type="github" pages="3">
   <diagram id="yXM54rgLqPtb9FQqafVF" name="Architecture">
     <mxGraphModel dx="1005" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -283,6 +283,9 @@
         </mxCell>
         <mxCell id="9WeQNDf9ygO8wQ8GdExh-0" value="&lt;h1&gt;Notification API&lt;br&gt;&lt;/h1&gt;- This API would be used to send push notifications or alerts when users receive new messages (based on notification policies). It may use 3rd party to send notifications such as Apple, Google APIs." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
           <mxGeometry x="410" y="320" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9WeQNDf9ygO8wQ8GdExh-1" value="&lt;h1&gt;API Gateway&lt;br&gt;&lt;/h1&gt;Note: All API access is provided through API Gateway, which enforces authentication/authorization policies. It may also use other services for enforcing usage, rate-limit policies." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
+          <mxGeometry x="70" y="490" width="290" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
