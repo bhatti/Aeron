@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-29T20:51:35.020Z" agent="5.0 (Macintosh)" etag="9w9JNpO2PJiDg_sb0qRi" version="12.9.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-03-29T20:53:28.567Z" agent="5.0 (Macintosh)" etag="ikP9IDHeK-KPqshcXTaP" version="12.9.4" type="github" pages="3">
   <diagram id="yXM54rgLqPtb9FQqafVF" name="Architecture">
     <mxGraphModel dx="1005" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -290,7 +290,7 @@
         <mxCell id="9WeQNDf9ygO8wQ8GdExh-2" value="&lt;h1&gt;Logging/Monitoring API&lt;br&gt;&lt;/h1&gt;The logging API would log all access to the APIs and monitoring APIs would provide server status and API metrics to devops." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
           <mxGeometry x="410" y="410" width="290" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="9WeQNDf9ygO8wQ8GdExh-3" value="&lt;h1&gt;Messaging Queues&lt;br&gt;&lt;/h1&gt;In order to scale APIs and handle retries in case of failures, messaging queues are used to communicate between services. Modern messaging systems such as Kafka can scale up to millions of messages and provide reliable and performant access to the messages." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
+        <mxCell id="9WeQNDf9ygO8wQ8GdExh-3" value="&lt;h1&gt;Messaging Queues&lt;br&gt;&lt;/h1&gt;In order to scale APIs, build loosely coupled services and handle retries in case of failures, messaging queues are used to communicate between services. Modern messaging systems such as Kafka can scale up to millions of messages and provide reliable and performant access to handle high throughput." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
           <mxGeometry x="80" y="560" width="290" height="140" as="geometry" />
         </mxCell>
         <mxCell id="iAABaeeurCcwXN3O7NGH-0" value="&lt;h1&gt;Future Features/Limits&lt;br&gt;&lt;/h1&gt;- As MQ uses 3rd party for sending/receiving messages, its scalability would be limited by scalability of 3rd party APIs.&lt;br&gt;- Assuming 3rd party supports multiple recipients, CC,BCC, it would be trivial to add that.&lt;br&gt;- Attachments require more changes to the design and separate API for scalability." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
