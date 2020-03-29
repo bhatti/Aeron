@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-29T20:48:45.638Z" agent="5.0 (Macintosh)" etag="qlsKlcVnVFUIW30E1z82" version="12.9.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-03-29T20:50:12.090Z" agent="5.0 (Macintosh)" etag="GC5cfu5ReSyG1yHr_TwJ" version="12.9.4" type="github" pages="3">
   <diagram id="yXM54rgLqPtb9FQqafVF" name="Architecture">
     <mxGraphModel dx="1005" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -276,25 +276,25 @@
           <mxGeometry x="410" y="60" width="270" height="90" as="geometry" />
         </mxCell>
         <mxCell id="tg-wiOb_eR5SrmGJfxJq-2" value="&lt;h1&gt;Messages API&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Send Message: POST /messages&lt;br&gt;- Read Messages (inbox): GET /messages&lt;br&gt;&amp;nbsp;&amp;nbsp; (It may take other params for filtering such as flag, search, from, etc)&lt;br&gt;- Delete Message: DELETE /messages/{id}&lt;br&gt;- Mark message as read: PUT /messages/{id}/READ&lt;br&gt;- Attachments: GET /messages/{id}/attachments&lt;br&gt;(Note for scalability, attachments will have separate API)&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
-          <mxGeometry x="90" y="240" width="270" height="210" as="geometry" />
+          <mxGeometry x="80" y="190" width="270" height="210" as="geometry" />
         </mxCell>
         <mxCell id="tg-wiOb_eR5SrmGJfxJq-3" value="&lt;h1&gt;Authorization/Policy API&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Define roles/policies for usage (data size, bandwidth, max limit for send/receive)&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
-          <mxGeometry x="410" y="190" width="290" height="90" as="geometry" />
+          <mxGeometry x="410" y="160" width="290" height="90" as="geometry" />
         </mxCell>
         <mxCell id="9WeQNDf9ygO8wQ8GdExh-0" value="&lt;h1&gt;Notification API&lt;br&gt;&lt;/h1&gt;- This API would be used to send push notifications or alerts when users receive new messages (based on notification policies). It may use 3rd party to send notifications such as Apple, Google APIs.&lt;br&gt;- It may also use websockets to send alerts directly to web or mobile apps." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
-          <mxGeometry x="410" y="290" width="290" height="140" as="geometry" />
+          <mxGeometry x="410" y="260" width="290" height="140" as="geometry" />
         </mxCell>
         <mxCell id="9WeQNDf9ygO8wQ8GdExh-1" value="&lt;h1&gt;API Gateway&lt;br&gt;&lt;/h1&gt;Note: All API access is provided through API Gateway, which enforces authentication/authorization policies. It may also use other services for enforcing usage, rate-limit policies." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
-          <mxGeometry x="80" y="490" width="290" height="140" as="geometry" />
+          <mxGeometry x="80" y="410" width="290" height="140" as="geometry" />
         </mxCell>
         <mxCell id="9WeQNDf9ygO8wQ8GdExh-2" value="&lt;h1&gt;Logging/Monitoring API&lt;br&gt;&lt;/h1&gt;The logging API would log all access to the APIs and monitoring APIs would provide server status and API metrics to devops." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
-          <mxGeometry x="410" y="450" width="290" height="110" as="geometry" />
+          <mxGeometry x="410" y="410" width="290" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9WeQNDf9ygO8wQ8GdExh-3" value="&lt;h1&gt;Messaging Queues&lt;br&gt;&lt;/h1&gt;In order to scale APIs and handle retries in case of failures, messaging queues are used to communicate between services. Modern messaging systems such as Kafka can scale up to millions of messages and provide reliable and performant access to the messages." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
-          <mxGeometry x="80" y="610" width="290" height="140" as="geometry" />
+          <mxGeometry x="80" y="560" width="290" height="140" as="geometry" />
         </mxCell>
         <mxCell id="iAABaeeurCcwXN3O7NGH-0" value="&lt;h1&gt;Future Features/Limits&lt;br&gt;&lt;/h1&gt;- As MQ uses 3rd party for sending/receiving messages, its scalability would be limited by scalability of 3rd party APIs.&lt;br&gt;- Assuming 3rd party supports multiple recipients, CC,BCC, it would be trivial to add that.&lt;br&gt;- Attachments require more changes to the design and separate API for scalability." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
-          <mxGeometry x="425" y="560" width="290" height="160" as="geometry" />
+          <mxGeometry x="410" y="550" width="290" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
