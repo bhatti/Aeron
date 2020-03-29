@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-29T20:00:07.080Z" agent="5.0 (Macintosh)" etag="x-2zlUNNsnSOKNSSz6ua" version="12.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-29T20:02:55.945Z" agent="5.0 (Macintosh)" etag="VTcQX1y7g2PYbIT3qbgn" version="12.9.4" type="github">
   <diagram id="yXM54rgLqPtb9FQqafVF" name="Page-1">
     <mxGraphModel dx="1005" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -128,7 +128,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7yV_heJMqzwlbNoD4j5j-1" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7yV_heJMqzwlbNoD4j5j-1" value="MQ API Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7yV_heJMqzwlbNoD4j5j-3" value="" style="shape=link;html=1;" edge="1" parent="1">
