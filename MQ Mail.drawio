@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-30T18:29:09.047Z" agent="5.0 (Macintosh)" etag="hz91os2FzSyOX9E9fwJR" version="12.9.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-03-30T18:31:29.275Z" agent="5.0 (Macintosh)" etag="QMPg79Q8C5hO-FIbF0jO" version="12.9.5" type="github" pages="4">
   <diagram id="yXM54rgLqPtb9FQqafVF" name="Architecture">
     <mxGraphModel dx="1005" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -329,8 +329,8 @@
       <root>
         <mxCell id="Lu5CsDEoeB08HMDQ1AOj-0" />
         <mxCell id="Lu5CsDEoeB08HMDQ1AOj-1" parent="Lu5CsDEoeB08HMDQ1AOj-0" />
-        <mxCell id="lBfXGgo61KRYqPoDg4UQ-0" value="&lt;h1&gt;Future Features/Limits&lt;br&gt;&lt;/h1&gt;- As MQ uses 3rd party for sending/receiving messages, its scalability would be limited by scalability of 3rd party APIs.&lt;br&gt;- Assuming 3rd party supports multiple recipients, CC,BCC, it would be trivial to add that.&lt;br&gt;- Attachments require more changes to the design and separate API for scalability." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
-          <mxGeometry x="400" y="360" width="290" height="160" as="geometry" />
+        <mxCell id="lBfXGgo61KRYqPoDg4UQ-0" value="&lt;h1&gt;Third party Limitations&lt;br&gt;&lt;/h1&gt;- As MQ uses 3rd party for sending/receiving messages, its scalability would be limited by scalability of 3rd party APIs." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
+          <mxGeometry x="400" y="360" width="290" height="110" as="geometry" />
         </mxCell>
         <mxCell id="lTK9_PBSObScdsYT6k2n-0" value="&lt;h1&gt;Messaging Queues&lt;br&gt;&lt;/h1&gt;In order to scale APIs, build loosely coupled services and handle retries in case of failures, messaging queues are used to communicate between services. Modern messaging systems such as Kafka can scale up to millions of messages and provide reliable and performant access to handle high throughput." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
           <mxGeometry x="400" y="40" width="290" height="140" as="geometry" />
@@ -343,6 +343,9 @@
         </mxCell>
         <mxCell id="lTK9_PBSObScdsYT6k2n-3" value="&lt;h1&gt;User API Scalability&lt;br&gt;&lt;/h1&gt;&lt;div&gt;- 500 M users&lt;/div&gt;&lt;div&gt;- 10 edit requests per second&lt;/div&gt;&lt;div&gt;- Data Size: 1K per user -&amp;gt; 500G&lt;br&gt;&lt;/div&gt;&amp;nbsp; " style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
           <mxGeometry x="40" y="385" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fnKDGS_qfVQM0wdevpP7-0" value="&lt;h1&gt;CC/BCC &amp;amp;Attachments&lt;br&gt;&lt;/h1&gt;- Assuming 3rd party supports multiple recipients, CC,BCC, it would be trivial to add that.&lt;br&gt;- Attachments require more changes to the design and separate API for scalability." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
+          <mxGeometry x="40" y="520" width="290" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
