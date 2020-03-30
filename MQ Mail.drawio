@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-30T18:47:31.017Z" agent="5.0 (Macintosh)" etag="SaRNrKH_O__wn23eVMM7" version="12.9.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-03-30T18:49:32.379Z" agent="5.0 (Macintosh)" etag="CMREU6jwKThMe-NbqWYv" version="12.9.5" type="github" pages="4">
   <diagram id="yXM54rgLqPtb9FQqafVF" name="Architecture">
     <mxGraphModel dx="1005" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -323,6 +323,9 @@
         </mxCell>
         <mxCell id="wLOlGSMPdQCEkjiFprPh-2" value="&lt;h1&gt;Websocket Messaging API&lt;br&gt;&lt;/h1&gt;A websocket based messaging API can be used to notify remote clients about changes to inbox or incoming emails." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
           <mxGeometry x="80" y="590" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba0_n0SvMyKG0fFf1jPT-0" value="&lt;h1&gt;Analysis API&lt;br&gt;&lt;/h1&gt;The analysis API would analyze emails and provide services such as categorization of emails, SPAM detection, usage/policy monitoring, block abusive users, etc." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
+          <mxGeometry x="410" y="540" width="290" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
