@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-30T18:59:06.268Z" agent="5.0 (Macintosh)" etag="NsN9hoRE5zYrsNecx4LL" version="12.9.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-03-30T19:01:46.542Z" agent="5.0 (Macintosh)" etag="t5TfK3JDNqh_5gGLfWob" version="12.9.5" type="github" pages="4">
   <diagram id="yXM54rgLqPtb9FQqafVF" name="Architecture">
     <mxGraphModel dx="1005" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -324,6 +324,9 @@
         </mxCell>
         <mxCell id="fnKDGS_qfVQM0wdevpP7-0" value="&lt;h1&gt;CC/BCC &amp;amp;Attachments&lt;br&gt;&lt;/h1&gt;- Assuming 3rd party supports multiple recipients, CC,BCC, it would be trivial to add that.&lt;br&gt;- Attachments require more changes to the design and separate API for scalability.&lt;br&gt;- Data Size: &lt;br&gt;&amp;nbsp; Average Attachments: 20M&lt;br&gt;&amp;nbsp; Total Size: Number of Users * Inbox Size * 20M&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; = 5 TB" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
           <mxGeometry x="400" y="340" width="290" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="eJTGZxpgKeBRSknSPjg6-0" value="&lt;h1&gt;API Metrics&lt;br&gt;&lt;/h1&gt;- Collect latency, status and usage of all APIs so that engineers and devops can proactively look for production issues regarding scalability, fault tolerance, etc." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
+          <mxGeometry x="40" y="560" width="290" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
