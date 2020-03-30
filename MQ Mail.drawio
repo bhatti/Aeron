@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-30T18:58:17.355Z" agent="5.0 (Macintosh)" etag="LHGZnSHEeSteugS7V5Nd" version="12.9.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-03-30T18:59:06.268Z" agent="5.0 (Macintosh)" etag="NsN9hoRE5zYrsNecx4LL" version="12.9.5" type="github" pages="4">
   <diagram id="yXM54rgLqPtb9FQqafVF" name="Architecture">
     <mxGraphModel dx="1005" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -296,7 +296,7 @@
         <mxCell id="Ba0_n0SvMyKG0fFf1jPT-0" value="&lt;h1&gt;Analysis API&lt;br&gt;&lt;/h1&gt;The analysis API would analyze emails and provide services such as categorization of emails, SPAM detection, usage/policy monitoring, block abusive users, etc." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
           <mxGeometry x="400" y="520" width="290" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="1MB1FehCMPLY5IjkJ2ec-0" value="&lt;h1&gt;Search API&lt;br&gt;&lt;/h1&gt;The search API would use reverse index to extract, normalize keywords from message headers/contents and provide fast search for inbox." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
+        <mxCell id="1MB1FehCMPLY5IjkJ2ec-0" value="&lt;h1&gt;Search API&lt;br&gt;&lt;/h1&gt;The search API would use reverse index to extract, normalize keywords from message headers/contents and provide fast search for inbox.&lt;br&gt;&amp;nbsp; GET /messages?search=keywords" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
           <mxGeometry x="400" y="660" width="290" height="110" as="geometry" />
         </mxCell>
       </root>
