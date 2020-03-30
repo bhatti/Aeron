@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-30T19:25:03.294Z" agent="5.0 (Macintosh)" etag="TNGjWkWTfkldTN0Jg8hU" version="12.9.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-03-30T19:26:15.552Z" agent="5.0 (Macintosh)" etag="Sp9daCp0RLTpvuoPvKKL" version="12.9.5" type="github" pages="4">
   <diagram id="yXM54rgLqPtb9FQqafVF" name="Architecture">
     <mxGraphModel dx="1005" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -255,8 +255,8 @@
         <mxCell id="8OVAut1-e0P_HhH9-YBp-1" value="Attachments would have one-to-many relationships with emails" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" parent="OkEBHj06dpLLMknfeyw1-1" vertex="1">
           <mxGeometry x="360" y="430" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8OVAut1-e0P_HhH9-YBp-2" value="&lt;h1&gt;Database Scalability&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- sharding by user_id&lt;br&gt;- read replicas for quick inbox access&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="OkEBHj06dpLLMknfeyw1-1" vertex="1">
-          <mxGeometry x="80" y="590" width="260" height="90" as="geometry" />
+        <mxCell id="8OVAut1-e0P_HhH9-YBp-2" value="&lt;h1&gt;Database Scalability&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- sharding by user_id&lt;br&gt;- read replicas for quick inbox access&lt;br&gt;- cache recent changes to lower load on the database&lt;br&gt;- use events to send changes to inbox so that remote clients don&#39;t need to query the database.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="OkEBHj06dpLLMknfeyw1-1" vertex="1">
+          <mxGeometry x="80" y="590" width="260" height="160" as="geometry" />
         </mxCell>
         <mxCell id="8OVAut1-e0P_HhH9-YBp-3" value="&lt;h1&gt;Search&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Search would use reverse index APIs for scalability&lt;/p&gt;&lt;p&gt;- Modern search frameworks such as Elastic Search can be easily scaled with additional hardware resources.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="OkEBHj06dpLLMknfeyw1-1" vertex="1">
           <mxGeometry x="400" y="590" width="260" height="150" as="geometry" />
