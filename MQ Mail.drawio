@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-30T19:19:27.383Z" agent="5.0 (Macintosh)" etag="_OWi9ZaWTQ4AH2qSkCDe" version="12.9.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-03-30T19:23:51.711Z" agent="5.0 (Macintosh)" etag="Om4pKid4aWus-H4bmDaG" version="12.9.5" type="github" pages="4">
   <diagram id="yXM54rgLqPtb9FQqafVF" name="Architecture">
     <mxGraphModel dx="1005" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -330,6 +330,12 @@
         </mxCell>
         <mxCell id="iPKBn2Rlg8VpaYfUkUwn-0" value="&lt;h1&gt;Horizontal Scalability&lt;br&gt;&lt;/h1&gt;&lt;div&gt;- The API services are stateless and can be easily scaled to multiple instances as additional servers are added.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;-The outgoing emails are processed by &quot;MQ Send Gateway&quot; that uses 3rd party API to send emails. It reads incoming requests from messaging and queue and can be easily scaled by increasing number of message handlers. Also, any email that fails to send would automatically put back in the queue to be retried later.&lt;br&gt;- Similarly incoming emails are processed by&quot;MQ Receive Handler&quot; that can scale by increasing number of handlers." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
           <mxGeometry x="400" y="480" width="290" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="-hewisg0nXpz9-Pq7y16-0" value="&lt;h1&gt;Caching&lt;br&gt;&lt;/h1&gt;- The system may cache frequently accessed data such as user profiles, newly received emails, etc. to minimize load on the database." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
+          <mxGeometry x="40" y="670" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-hewisg0nXpz9-Pq7y16-1" value="&lt;h1&gt;End-to-End Encryption&lt;br&gt;&lt;/h1&gt;- MQ Mail may offer end-to-end encryption to distinguish itself from GMail so that users are secured against security vulnerability and loss of private data." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
+          <mxGeometry x="40" y="790" width="290" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
