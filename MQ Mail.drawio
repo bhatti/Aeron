@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-30T19:45:23.713Z" agent="5.0 (Macintosh)" etag="FfgeDUscY3pxj_2O5pH2" version="12.9.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-03-30T19:46:08.771Z" agent="5.0 (Macintosh)" etag="iFYbsRK0KtydeoCfyxPq" version="12.9.5" type="github" pages="4">
   <diagram id="yXM54rgLqPtb9FQqafVF" name="Architecture">
     <mxGraphModel dx="1005" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -255,86 +255,46 @@
         <mxCell id="8OVAut1-e0P_HhH9-YBp-1" value="Attachments would have one-to-many relationships with emails" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" parent="OkEBHj06dpLLMknfeyw1-1" vertex="1">
           <mxGeometry x="360" y="430" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8OVAut1-e0P_HhH9-YBp-3" value="&lt;h1&gt;Search&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Search would use reverse index APIs for scalability&lt;/p&gt;&lt;p&gt;- Modern search frameworks such as Elastic Search can be easily scaled with additional hardware resources.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="OkEBHj06dpLLMknfeyw1-1" vertex="1">
-          <mxGeometry x="400" y="590" width="260" height="150" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="zrMSfRwTqs7Us2sOPMro" name="API">
-    
     <mxGraphModel dx="1005" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      
       <root>
-        
         <mxCell id="I3gKFV07H3BZrqv17RV0-0" />
-        
         <mxCell id="I3gKFV07H3BZrqv17RV0-1" parent="I3gKFV07H3BZrqv17RV0-0" />
-        
         <mxCell id="tg-wiOb_eR5SrmGJfxJq-0" value="&lt;h1&gt;User Management API&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Create user: POST /users&lt;br&gt;- Edit user: PUT /users/{id}&lt;br&gt;- Delete user: DELETE /users/{id}&lt;br&gt;- Password change/suspend/etc&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
-          
           <mxGeometry x="80" y="60" width="270" height="120" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="tg-wiOb_eR5SrmGJfxJq-1" value="&lt;h1&gt;Authentication API&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Login: POST /login&lt;br&gt;- Logout: DELETE /login&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
-          
           <mxGeometry x="400" y="60" width="270" height="90" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="tg-wiOb_eR5SrmGJfxJq-2" value="&lt;h1&gt;Messages API&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Send Message: POST /messages&lt;br&gt;- Read Messages (inbox): GET /messages&lt;br&gt;&amp;nbsp;&amp;nbsp; (It may take other params for filtering such as flag, search, from, etc)&lt;br&gt;&amp;nbsp;- Head API to check for new emails: HEAD /messages&lt;br&gt;- Delete Message: DELETE /messages/{id}&lt;br&gt;- Mark message as read: PUT /messages/{id}/READ&lt;br&gt;- Attachments: GET /messages/{id}/attachments&lt;br&gt;(Note for scalability, attachments will have separate API)&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
-          
           <mxGeometry x="80" y="190" width="270" height="240" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="tg-wiOb_eR5SrmGJfxJq-3" value="&lt;h1&gt;Authorization/Policy API&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Define roles/policies for usage (data size, bandwidth, max limit for send/receive)&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
-          
           <mxGeometry x="400" y="160" width="290" height="90" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="9WeQNDf9ygO8wQ8GdExh-0" value="&lt;h1&gt;Notification API&lt;br&gt;&lt;/h1&gt;- This API would be used to send push notifications or alerts when users receive new messages (based on notification policies). It may use 3rd party to send notifications such as Apple, Google APIs.&lt;br&gt;- It may also use websockets events API to send alerts directly to web or mobile apps." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
-          
           <mxGeometry x="400" y="260" width="290" height="140" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="9WeQNDf9ygO8wQ8GdExh-1" value="&lt;h1&gt;API Gateway&lt;br&gt;&lt;/h1&gt;Note: All API access is provided through API Gateway, which enforces authentication/authorization policies. It may also use other services for enforcing usage, rate-limit policies." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
-          
           <mxGeometry x="80" y="440" width="290" height="140" as="geometry" />
-          
         </mxCell>
-        
         <mxCell id="9WeQNDf9ygO8wQ8GdExh-2" value="&lt;h1&gt;Logging/Monitoring API&lt;br&gt;&lt;/h1&gt;The logging API would log all access to the APIs and monitoring APIs would provide server status and API metrics to devops." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
-          
           <mxGeometry x="400" y="410" width="290" height="110" as="geometry" />
-          
         </mxCell>
-        
-        <mxCell id="wLOlGSMPdQCEkjiFprPh-2" value="&lt;h1&gt;Websocket Events API&lt;br&gt;&lt;/h1&gt;A websocket based events API can be used to notify remote clients about changes to inbox or incoming emails." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
-          
+        <mxCell id="wLOlGSMPdQCEkjiFprPh-2" value="&lt;h1&gt;Websocket Events API&lt;br&gt;&lt;/h1&gt;A websocket based events API can be used to notify remote clients about changes to inbox or incoming emails." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
           <mxGeometry x="80" y="590" width="290" height="140" as="geometry" />
-          
         </mxCell>
-        
-        <mxCell id="Ba0_n0SvMyKG0fFf1jPT-0" value="&lt;h1&gt;Analysis API&lt;br&gt;&lt;/h1&gt;- The analysis API would analyze emails and provide services such as categorization of emails, SPAM detection, usage/policy monitoring, block abusive users, etc. &lt;br&gt;- The analysis API may use separate OLAP database." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
-          
+        <mxCell id="Ba0_n0SvMyKG0fFf1jPT-0" value="&lt;h1&gt;Analysis API&lt;br&gt;&lt;/h1&gt;- The analysis API would analyze emails and provide services such as categorization of emails, SPAM detection, usage/policy monitoring, block abusive users, etc. &lt;br&gt;- The analysis API may use separate OLAP database." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
           <mxGeometry x="400" y="520" width="290" height="140" as="geometry" />
-          
         </mxCell>
-        
-        <mxCell id="1MB1FehCMPLY5IjkJ2ec-0" value="&lt;h1&gt;Search API&lt;br&gt;&lt;/h1&gt;The search API would use reverse index to extract, normalize keywords from message headers/contents and provide fast search for inbox.&lt;br&gt;&amp;nbsp; GET /messages?search=keywords" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I3gKFV07H3BZrqv17RV0-1">
-          
+        <mxCell id="1MB1FehCMPLY5IjkJ2ec-0" value="&lt;h1&gt;Search API&lt;br&gt;&lt;/h1&gt;The search API would use reverse index to extract, normalize keywords from message headers/contents and provide fast search for inbox.&lt;br&gt;&amp;nbsp; GET /messages?search=keywords" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
           <mxGeometry x="400" y="670" width="290" height="110" as="geometry" />
-          
         </mxCell>
-        
       </root>
-      
     </mxGraphModel>
-    
   </diagram>
   <diagram id="s3EYPR4WtW38U2wsZd_R" name="Scalability">
     <mxGraphModel dx="1005" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
@@ -369,10 +329,13 @@
           <mxGeometry x="40" y="670" width="290" height="110" as="geometry" />
         </mxCell>
         <mxCell id="-hewisg0nXpz9-Pq7y16-1" value="&lt;h1&gt;End-to-End Encryption&lt;br&gt;&lt;/h1&gt;- MQ Mail may offer end-to-end encryption to distinguish itself from GMail so that users are secured against security vulnerability and loss of private data." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="Lu5CsDEoeB08HMDQ1AOj-1" vertex="1">
-          <mxGeometry x="40" y="790" width="290" height="110" as="geometry" />
+          <mxGeometry x="400" y="920" width="290" height="110" as="geometry" />
         </mxCell>
         <mxCell id="EaQgoMGvoJxnEM1vbSVi-0" value="&lt;h1&gt;Database Scalability&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- sharding by user_id&lt;br&gt;- read replicas for quick inbox access&lt;br&gt;- cache recent changes to lower load on the database&lt;br&gt;- use events to send changes to inbox so that remote clients don&#39;t need to query the database.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
           <mxGeometry x="400" y="750" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="xdzoZsPOt9wzFhLU3LMI-0" value="&lt;h1&gt;Search&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Search would use reverse index APIs for scalability&lt;/p&gt;&lt;p&gt;- Modern search frameworks such as Elastic Search can be easily scaled with additional hardware resources.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
+          <mxGeometry x="40" y="780" width="260" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
