@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-30T14:31:28.362Z" agent="5.0 (Macintosh)" etag="fq0-GauXYTVFOh74pBqo" version="12.9.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-03-30T18:29:09.047Z" agent="5.0 (Macintosh)" etag="hz91os2FzSyOX9E9fwJR" version="12.9.5" type="github" pages="4">
   <diagram id="yXM54rgLqPtb9FQqafVF" name="Architecture">
     <mxGraphModel dx="1005" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -321,12 +321,6 @@
         <mxCell id="9WeQNDf9ygO8wQ8GdExh-2" value="&lt;h1&gt;Logging/Monitoring API&lt;br&gt;&lt;/h1&gt;The logging API would log all access to the APIs and monitoring APIs would provide server status and API metrics to devops." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
           <mxGeometry x="410" y="410" width="290" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="9WeQNDf9ygO8wQ8GdExh-3" value="&lt;h1&gt;Messaging Queues&lt;br&gt;&lt;/h1&gt;In order to scale APIs, build loosely coupled services and handle retries in case of failures, messaging queues are used to communicate between services. Modern messaging systems such as Kafka can scale up to millions of messages and provide reliable and performant access to handle high throughput." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
-          <mxGeometry x="80" y="560" width="290" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="iAABaeeurCcwXN3O7NGH-0" value="&lt;h1&gt;Future Features/Limits&lt;br&gt;&lt;/h1&gt;- As MQ uses 3rd party for sending/receiving messages, its scalability would be limited by scalability of 3rd party APIs.&lt;br&gt;- Assuming 3rd party supports multiple recipients, CC,BCC, it would be trivial to add that.&lt;br&gt;- Attachments require more changes to the design and separate API for scalability." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
-          <mxGeometry x="410" y="550" width="290" height="160" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -335,6 +329,21 @@
       <root>
         <mxCell id="Lu5CsDEoeB08HMDQ1AOj-0" />
         <mxCell id="Lu5CsDEoeB08HMDQ1AOj-1" parent="Lu5CsDEoeB08HMDQ1AOj-0" />
+        <mxCell id="lBfXGgo61KRYqPoDg4UQ-0" value="&lt;h1&gt;Future Features/Limits&lt;br&gt;&lt;/h1&gt;- As MQ uses 3rd party for sending/receiving messages, its scalability would be limited by scalability of 3rd party APIs.&lt;br&gt;- Assuming 3rd party supports multiple recipients, CC,BCC, it would be trivial to add that.&lt;br&gt;- Attachments require more changes to the design and separate API for scalability." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
+          <mxGeometry x="400" y="360" width="290" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lTK9_PBSObScdsYT6k2n-0" value="&lt;h1&gt;Messaging Queues&lt;br&gt;&lt;/h1&gt;In order to scale APIs, build loosely coupled services and handle retries in case of failures, messaging queues are used to communicate between services. Modern messaging systems such as Kafka can scale up to millions of messages and provide reliable and performant access to handle high throughput." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
+          <mxGeometry x="400" y="40" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lTK9_PBSObScdsYT6k2n-1" value="&lt;h1&gt;SPAM&lt;br&gt;&lt;/h1&gt;The Analysis service would monitor emails signatures, originating headers and contents for SPAM detection. It may use Bayesian filtering, PKI, blockhole and other techniques to handle spam." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
+          <mxGeometry x="400" y="200" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lTK9_PBSObScdsYT6k2n-2" value="&lt;h1&gt;Mail API Scalability&lt;br&gt;&lt;/h1&gt;&lt;div&gt;- 500 M users&lt;/div&gt;&lt;div&gt;- 100 send mails per second&lt;/div&gt;&lt;div&gt;- 200 inbox requests per second&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 500 header requests per second (for new emails)&lt;/div&gt;&lt;div&gt;- 100 search requests per second&lt;/div&gt;&lt;div&gt;- Data Size: &lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 10M per email&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1K - header request&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Average Inbox Emails: 10000&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Total Size: 100G&lt;br&gt;&amp;nbsp;- Outgoing (Send) Bandwidth: 1G per second&lt;br&gt;&amp;nbsp;- Inbox Bandwidth: 2G per second&lt;br&gt;&amp;nbsp;- Header bandwidth: 500K per second&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
+          <mxGeometry x="40" y="40" width="290" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="lTK9_PBSObScdsYT6k2n-3" value="&lt;h1&gt;User API Scalability&lt;br&gt;&lt;/h1&gt;&lt;div&gt;- 500 M users&lt;/div&gt;&lt;div&gt;- 10 edit requests per second&lt;/div&gt;&lt;div&gt;- Data Size: 1K per user -&amp;gt; 500G&lt;br&gt;&lt;/div&gt;&amp;nbsp; " style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
+          <mxGeometry x="40" y="385" width="290" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
