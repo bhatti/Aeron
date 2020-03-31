@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-31T14:49:57.864Z" agent="5.0 (Macintosh)" etag="cQKhp6N_PENfGzPfVpcx" version="12.9.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-03-31T14:56:17.525Z" agent="5.0 (Macintosh)" etag="ARngJExZlzT3aQXIJcEd" version="12.9.5" type="github" pages="4">
   <diagram id="yXM54rgLqPtb9FQqafVF" name="Architecture">
     <mxGraphModel dx="1005" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -286,14 +286,14 @@
       <root>
         <mxCell id="I3gKFV07H3BZrqv17RV0-0" />
         <mxCell id="I3gKFV07H3BZrqv17RV0-1" parent="I3gKFV07H3BZrqv17RV0-0" />
-        <mxCell id="tg-wiOb_eR5SrmGJfxJq-0" value="&lt;h1&gt;Users Service API&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Create user: POST /users&lt;br&gt;- Edit user: PUT /users/{id}&lt;br&gt;- Delete user: DELETE /users/{id}&lt;br&gt;- Password change/suspend/etc&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
-          <mxGeometry x="80" y="60" width="270" height="120" as="geometry" />
+        <mxCell id="tg-wiOb_eR5SrmGJfxJq-0" value="&lt;h1&gt;Users Service API&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Create user: POST /users&lt;br&gt;- Edit user: PUT /users/{id}&lt;br&gt;- Get user: GET/users/{id}&lt;br&gt;- Lookup user: GET /users?search=keyword&lt;br&gt;- Delete user: DELETE /users/{id}&lt;br&gt;- Password change/suspend/etc&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
+          <mxGeometry x="80" y="60" width="270" height="150" as="geometry" />
         </mxCell>
         <mxCell id="tg-wiOb_eR5SrmGJfxJq-1" value="&lt;h1&gt;Authentication API&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Login: POST /login&lt;br&gt;- Logout: DELETE /login&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
           <mxGeometry x="400" y="60" width="270" height="90" as="geometry" />
         </mxCell>
         <mxCell id="tg-wiOb_eR5SrmGJfxJq-2" value="&lt;h1&gt;Messages API&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Send Message: POST /messages&lt;br&gt;- Read Messages (inbox): GET /messages&lt;br&gt;&amp;nbsp;&amp;nbsp; (It may take other params for filtering such as flag, search, from, etc)&lt;br&gt;&amp;nbsp;- Head API to check for new emails: HEAD /messages&lt;br&gt;- Delete Message: DELETE /messages/{id}&lt;br&gt;- Mark message as read: PUT /messages/{id}/READ&lt;br&gt;- Attachments: GET /messages/{id}/attachments&lt;br&gt;(Note for scalability, attachments will have separate API)&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
-          <mxGeometry x="80" y="190" width="270" height="240" as="geometry" />
+          <mxGeometry x="80" y="240" width="270" height="240" as="geometry" />
         </mxCell>
         <mxCell id="tg-wiOb_eR5SrmGJfxJq-3" value="&lt;h1&gt;Authorization/Policy API&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Define roles/policies for usage (data size, bandwidth, max limit for send/receive)&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
           <mxGeometry x="400" y="160" width="290" height="90" as="geometry" />
@@ -302,13 +302,13 @@
           <mxGeometry x="400" y="260" width="290" height="140" as="geometry" />
         </mxCell>
         <mxCell id="9WeQNDf9ygO8wQ8GdExh-1" value="&lt;h1&gt;API Gateway&lt;br&gt;&lt;/h1&gt;Note: All API access is provided through API Gateway, which enforces authentication/authorization policies. It may also use other services for enforcing usage, rate-limit policies." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
-          <mxGeometry x="80" y="440" width="290" height="140" as="geometry" />
+          <mxGeometry x="80" y="490" width="290" height="140" as="geometry" />
         </mxCell>
         <mxCell id="9WeQNDf9ygO8wQ8GdExh-2" value="&lt;h1&gt;Logging/Monitoring API&lt;br&gt;&lt;/h1&gt;The logging API would log all access to the APIs and monitoring APIs would provide server status and API metrics to devops." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
           <mxGeometry x="400" y="410" width="290" height="110" as="geometry" />
         </mxCell>
         <mxCell id="wLOlGSMPdQCEkjiFprPh-2" value="&lt;h1&gt;Websocket Events API&lt;br&gt;&lt;/h1&gt;A websocket based events API can be used to notify remote clients about changes to inbox or incoming emails." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
-          <mxGeometry x="80" y="590" width="290" height="140" as="geometry" />
+          <mxGeometry x="80" y="640" width="290" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Ba0_n0SvMyKG0fFf1jPT-0" value="&lt;h1&gt;Analysis API&lt;br&gt;&lt;/h1&gt;- The analysis API would analyze emails and provide services such as categorization of emails, SPAM detection, usage/policy monitoring, block abusive users, etc. &lt;br&gt;- The analysis API may use separate OLAP database." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="I3gKFV07H3BZrqv17RV0-1" vertex="1">
           <mxGeometry x="400" y="520" width="290" height="140" as="geometry" />
