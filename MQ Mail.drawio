@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-31T04:54:18.999Z" agent="5.0 (Macintosh)" etag="VWuKEHK6N4uf_91Nq72V" version="12.9.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-03-31T04:54:40.568Z" agent="5.0 (Macintosh)" etag="6SByI-IBDn4DM7sRAjBs" version="12.9.5" type="github" pages="4">
   <diagram id="yXM54rgLqPtb9FQqafVF" name="Architecture">
     <mxGraphModel dx="1005" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -337,7 +337,7 @@
         <mxCell id="xdzoZsPOt9wzFhLU3LMI-0" value="&lt;h1&gt;Search&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Search would use reverse index APIs for scalability&lt;/p&gt;&lt;p&gt;- Modern search frameworks such as Elastic Search can be easily scaled with additional hardware resources.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="Lu5CsDEoeB08HMDQ1AOj-1" vertex="1">
           <mxGeometry x="40" y="680" width="260" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="lgDpFCGkf76HiH6bYYgI-0" value="&lt;h1&gt;Client-side Caching&lt;br&gt;&lt;/h1&gt;- The mobile and web clients may use client side caching to store messages (with encryption)." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
+        <mxCell id="lgDpFCGkf76HiH6bYYgI-0" value="&lt;h1&gt;Client-side Caching&lt;br&gt;&lt;/h1&gt;- The mobile and web clients may use client side caching to store messages (with encryption) to reduce server load." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Lu5CsDEoeB08HMDQ1AOj-1">
           <mxGeometry x="40" y="960" width="290" height="100" as="geometry" />
         </mxCell>
       </root>
