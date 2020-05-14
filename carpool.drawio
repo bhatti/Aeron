@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-14T17:18:10.419Z" agent="5.0 (Macintosh)" etag="_cMrXQGGBEOBOsXg_pkH" version="13.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-14T17:18:33.251Z" agent="5.0 (Macintosh)" etag="PqyD0CUH6trKSb0NlatS" version="13.1.1" type="github">
   <diagram id="8plXeS_6gAHWKv4li25l" name="Page-1">
     <mxGraphModel dx="1382" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -109,6 +109,9 @@
         <mxCell id="ze_mwSEJfYMtS1VNut9u-21" value="DMS" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="597" y="400" width="100" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="MrDo1AtJTv-XtQDLNTLO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.875;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ze_mwSEJfYMtS1VNut9u-25" target="MrDo1AtJTv-XtQDLNTLO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ze_mwSEJfYMtS1VNut9u-25" value="Kubernetes" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="480" width="320" height="220" as="geometry" />
         </mxCell>
@@ -166,8 +169,8 @@
         <mxCell id="MrDo1AtJTv-XtQDLNTLO-4" value="MITM" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="335" y="629.5" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MrDo1AtJTv-XtQDLNTLO-5" value="S3" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="525" width="120" height="80" as="geometry" />
+        <mxCell id="MrDo1AtJTv-XtQDLNTLO-5" value="S3&lt;br&gt;Artifacts/Logs" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="550" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
