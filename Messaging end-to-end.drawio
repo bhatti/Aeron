@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-19T21:20:26.377Z" agent="5.0 (Macintosh)" etag="9So5ayM06I68FnZ8TLHt" version="14.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-19T21:22:53.870Z" agent="5.0 (Macintosh)" etag="M2X_Or21gFu_JP1_9nxC" version="14.1.1" type="github" pages="4">
   <diagram id="8cKmaSwK6WJSGoCFpQgA" name="DNS">
     <mxGraphModel dx="1021" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -295,7 +295,7 @@
           <mxGeometry x="560" y="170" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-17" value="Delivery Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="40" y="360" width="320" height="60" as="geometry" />
+          <mxGeometry x="40" y="360" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Ff50zL4wBcD5ZscaE2Nx-1" source="Ff50zL4wBcD5ZscaE2Nx-20" target="Ff50zL4wBcD5ZscaE2Nx-13">
           <mxGeometry relative="1" as="geometry" />
@@ -336,7 +336,7 @@
           <mxGeometry x="560" y="660" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-30" value="Delivery Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="560" y="360" width="320" height="60" as="geometry" />
+          <mxGeometry x="720" y="360" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Ff50zL4wBcD5ZscaE2Nx-1" source="Ff50zL4wBcD5ZscaE2Nx-31" target="Ff50zL4wBcD5ZscaE2Nx-14">
           <mxGeometry relative="1" as="geometry" />
@@ -366,6 +366,12 @@
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-35" value="Group Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="560" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-42" value="Message API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+          <mxGeometry x="560" y="360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-43" value="Message API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+          <mxGeometry x="200" y="360" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
