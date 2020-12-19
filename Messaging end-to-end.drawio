@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-19T22:04:24.068Z" agent="5.0 (Macintosh)" etag="qY52s9thrck3MllIx3oq" version="14.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-19T22:10:01.923Z" agent="5.0 (Macintosh)" etag="q-NcPuUMvp8vJG7-N0GY" version="14.1.1" type="github" pages="4">
   <diagram id="8cKmaSwK6WJSGoCFpQgA" name="DNS">
     <mxGraphModel dx="1021" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -301,7 +301,7 @@
           <mxGeometry x="20" y="360" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-23" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="260" y="350" width="140" height="210" as="geometry" />
+          <mxGeometry x="340" y="360" width="80" height="360" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-25" value="Group Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="100" y="410" width="160" height="50" as="geometry" />
@@ -309,8 +309,8 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="680" y="310" width="240" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-28" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Local Keys Registry&lt;br&gt;(Encrypted)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="680" y="410" width="240" height="250" as="geometry" />
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-28" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Local Keys Registry&lt;br&gt;(Encrypted)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+          <mxGeometry x="680" y="410" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-29" value="&lt;div&gt;Encryption Libraries&lt;/div&gt;&lt;div&gt;(Olm / Megolm / Double Ratchet)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="680" y="660" width="240" height="60" as="geometry" />
@@ -333,14 +333,11 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-33" value="MessageStore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="680" y="510" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-34" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="540" y="350" width="140" height="210" as="geometry" />
-        </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-43" value="Local Messaging&lt;br&gt; API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="260" y="350" width="100" height="120" as="geometry" />
+          <mxGeometry x="260" y="360" width="80" height="360" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-46" value="Local Messaging&lt;br&gt; API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="580" y="350" width="100" height="120" as="geometry" />
+          <mxGeometry x="600" y="360" width="80" height="360" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-49" value="MLS/Ratcheting Trees Algorithms&lt;br&gt; for Groups" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="20" y="610" width="240" height="50" as="geometry" />
@@ -377,6 +374,9 @@
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-60" value="&lt;b&gt;Decentralized Identity&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="560" y="100" width="179" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-66" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+          <mxGeometry x="520" y="360" width="80" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
