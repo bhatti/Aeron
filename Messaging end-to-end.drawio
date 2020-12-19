@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-19T22:10:56.732Z" agent="5.0 (Macintosh)" etag="58cOzEsxTMOgF1WK9eqG" version="14.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-19T22:13:04.110Z" agent="5.0 (Macintosh)" etag="7sZ7yakixOYBYpxdnVjl" version="14.1.1" type="github" pages="4">
   <diagram id="8cKmaSwK6WJSGoCFpQgA" name="DNS">
     <mxGraphModel dx="1021" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -333,11 +333,8 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-33" value="MessageStore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="680" y="510" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-43" value="Standardize Messaging&lt;br&gt; API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-43" value="Standardized Messaging&lt;br&gt; API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="260" y="360" width="80" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-46" value="Standardize Messaging&lt;br&gt; API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="600" y="360" width="80" height="360" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-49" value="MLS/Ratcheting Trees Algorithms&lt;br&gt; for Groups" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="20" y="610" width="240" height="50" as="geometry" />
@@ -377,6 +374,9 @@
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-66" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="520" y="360" width="80" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-67" value="Standardized Messaging&lt;br&gt; API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+          <mxGeometry x="600" y="360" width="80" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
