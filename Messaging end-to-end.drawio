@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-19T21:57:55.251Z" agent="5.0 (Macintosh)" etag="iBg1G7JO1XMWWK4gpeXS" version="14.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-19T22:01:21.395Z" agent="5.0 (Macintosh)" etag="3j41uJrT5kSCBZIoRYzV" version="14.1.1" type="github" pages="4">
   <diagram id="8cKmaSwK6WJSGoCFpQgA" name="DNS">
     <mxGraphModel dx="1021" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -280,39 +280,25 @@
           <mxGeometry x="20" y="410" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-5" value="&lt;b&gt;Decentralized Identity&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="41" y="40" width="189" height="60" as="geometry" />
+          <mxGeometry x="200" y="100" width="179" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-6" value="&lt;b&gt;Decentralized Files Sharing&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="340" y="40" width="240" height="60" as="geometry" />
+          <mxGeometry x="379" y="100" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-9" value="&lt;div&gt;Encryption Libraries&lt;/div&gt;&lt;div&gt;(Olm / Megolm / Double Ratchet)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="20" y="660" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-12" value="&lt;b&gt;&amp;nbsp;Decentralized Public Keys&lt;br&gt; &amp;amp; Directory&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="640" y="40" width="180" height="60" as="geometry" />
+          <mxGeometry x="740" y="100" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-13" value="SMTP/P2P&lt;br&gt;XMPP/IRC" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="240" y="170" width="120" height="80" as="geometry" />
+          <mxGeometry x="330" y="210" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-14" value="SMTP/P2P&lt;br&gt;XMPP/IRC" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="560" y="170" width="120" height="80" as="geometry" />
+          <mxGeometry x="480" y="210" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-17" value="Delivery Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="20" y="360" width="240" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.663;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Ff50zL4wBcD5ZscaE2Nx-1" target="Ff50zL4wBcD5ZscaE2Nx-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="300" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Ff50zL4wBcD5ZscaE2Nx-1" target="Ff50zL4wBcD5ZscaE2Nx-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="300" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="200" y="150" />
-              <mxPoint x="440" y="150" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-23" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="260" y="350" width="140" height="250" as="geometry" />
@@ -329,18 +315,13 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-29" value="&lt;div&gt;Encryption Libraries&lt;/div&gt;&lt;div&gt;(Olm / Megolm / Double Ratchet)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="680" y="660" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.667;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Ff50zL4wBcD5ZscaE2Nx-1" source="Ff50zL4wBcD5ZscaE2Nx-31" target="Ff50zL4wBcD5ZscaE2Nx-12">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Ff50zL4wBcD5ZscaE2Nx-1" source="Ff50zL4wBcD5ZscaE2Nx-31" target="Ff50zL4wBcD5ZscaE2Nx-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Ff50zL4wBcD5ZscaE2Nx-1" source="Ff50zL4wBcD5ZscaE2Nx-31" target="Ff50zL4wBcD5ZscaE2Nx-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="720" y="150" />
-              <mxPoint x="520" y="150" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.559;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Ff50zL4wBcD5ZscaE2Nx-1" source="Ff50zL4wBcD5ZscaE2Nx-31" target="Ff50zL4wBcD5ZscaE2Nx-60">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Ff50zL4wBcD5ZscaE2Nx-1" source="Ff50zL4wBcD5ZscaE2Nx-31" target="Ff50zL4wBcD5ZscaE2Nx-14">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Ff50zL4wBcD5ZscaE2Nx-1" source="Ff50zL4wBcD5ZscaE2Nx-31" target="Ff50zL4wBcD5ZscaE2Nx-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-31" value="Transport Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
@@ -367,6 +348,12 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Ff50zL4wBcD5ZscaE2Nx-1" source="Ff50zL4wBcD5ZscaE2Nx-50" target="Ff50zL4wBcD5ZscaE2Nx-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Ff50zL4wBcD5ZscaE2Nx-1" source="Ff50zL4wBcD5ZscaE2Nx-50" target="Ff50zL4wBcD5ZscaE2Nx-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Ff50zL4wBcD5ZscaE2Nx-1" source="Ff50zL4wBcD5ZscaE2Nx-50" target="Ff50zL4wBcD5ZscaE2Nx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-50" value="Transport Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="20" y="310" width="240" height="50" as="geometry" />
         </mxCell>
@@ -384,6 +371,12 @@
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-58" value="Delivery Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="680" y="360" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-59" value="&lt;b&gt;&amp;nbsp;Decentralized Public Keys&lt;br&gt; &amp;amp; Directory&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+          <mxGeometry x="20" y="100" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-60" value="&lt;b&gt;Decentralized Identity&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+          <mxGeometry x="560" y="100" width="179" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
