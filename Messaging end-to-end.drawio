@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T22:23:02.021Z" agent="5.0 (Macintosh)" etag="NWwCvi6JXzc1putUaZj5" version="14.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-20T22:23:34.788Z" agent="5.0 (Macintosh)" etag="IZBp3Slm9caAypCGKt55" version="14.1.1" type="github" pages="4">
   <diagram id="8cKmaSwK6WJSGoCFpQgA" name="DNS">
     <mxGraphModel dx="1021" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -378,10 +378,10 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-68" value="Message&lt;br&gt;Store" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="600" y="670" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-70" value="Event Bus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-70" value="Event Bus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="260" y="360" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-71" value="Event Bus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-71" value="Event Bus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="600" y="360" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-72" value="Local Authentication / &lt;br&gt;DID Verification" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
