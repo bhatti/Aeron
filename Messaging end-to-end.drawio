@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T19:50:21.819Z" agent="5.0 (Macintosh)" etag="Si8DoEBj2EI6_6PGDLje" version="14.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-20T19:51:18.523Z" agent="5.0 (Macintosh)" etag="2At2t7tQrOrnjSPZhKC3" version="14.1.1" type="github" pages="4">
   <diagram id="8cKmaSwK6WJSGoCFpQgA" name="DNS">
     <mxGraphModel dx="1021" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -384,10 +384,10 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-71" value="Event Bus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="600" y="360" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-72" value="Local Authentication" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-72" value="Local Authentication / &lt;br&gt;DID Verification" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="100" y="410" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-73" value="Local Authentication" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-73" value="Local Authentication /&lt;br&gt;DID Verification" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="680" y="410" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
