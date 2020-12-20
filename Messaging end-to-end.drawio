@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-20T02:34:54.223Z" agent="5.0 (Macintosh)" etag="RH02TotcBlMjQQfGwMGv" version="14.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-20T19:50:21.819Z" agent="5.0 (Macintosh)" etag="Si8DoEBj2EI6_6PGDLje" version="14.1.1" type="github" pages="4">
   <diagram id="8cKmaSwK6WJSGoCFpQgA" name="DNS">
     <mxGraphModel dx="1021" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -316,7 +316,7 @@
           <mxGeometry x="680" y="310" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-43" value="Standardized Messaging&lt;br&gt; API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="260" y="360" width="80" height="360" as="geometry" />
+          <mxGeometry x="260" y="360" width="80" height="310" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Ff50zL4wBcD5ZscaE2Nx-1" source="Ff50zL4wBcD5ZscaE2Nx-50" target="Ff50zL4wBcD5ZscaE2Nx-13">
           <mxGeometry relative="1" as="geometry" />
@@ -346,7 +346,7 @@
           <mxGeometry x="520" y="360" width="80" height="360" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-67" value="Standardized Messaging&lt;br&gt; API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="600" y="360" width="80" height="360" as="geometry" />
+          <mxGeometry x="600" y="360" width="80" height="310" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-28" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Local Keys Registry&lt;br&gt;(Encrypted)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="730" y="410" width="190" height="200" as="geometry" />
@@ -357,17 +357,14 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-32" value="Contacts/Groups" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="680" y="460" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-33" value="MessageStore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="680" y="410" width="160" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-9" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Encryption Libraries&lt;/div&gt;&lt;div&gt;(Olm / Megolm / Double Ratchet)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="20" y="560" width="240" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-24" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Local Keys Registry&lt;br&gt;(Encrypted)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="20" y="410" width="190" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-53" value="MessageStore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="100" y="410" width="160" height="50" as="geometry" />
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-53" value="Message&lt;br&gt;Store" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+          <mxGeometry x="260" y="670" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-54" value="Contacts/Groups" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="100" y="460" width="160" height="50" as="geometry" />
@@ -377,6 +374,21 @@
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-49" value="MLS/Ratcheting Trees Algorithms&lt;br&gt; for Groups" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="70" y="610" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-68" value="Message&lt;br&gt;Store" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+          <mxGeometry x="600" y="670" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-70" value="Event Bus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+          <mxGeometry x="260" y="360" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-71" value="Event Bus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+          <mxGeometry x="600" y="360" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-72" value="Local Authentication" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+          <mxGeometry x="100" y="410" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-73" value="Local Authentication" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+          <mxGeometry x="680" y="410" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
