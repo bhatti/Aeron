@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-03T20:59:41.596Z" agent="5.0 (Macintosh)" etag="gh0Rl3G29FZJRdRMCdFi" version="14.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-06T00:30:33.657Z" agent="5.0 (Macintosh)" etag="UZiTIO-u0lXKpoWe201N" version="14.1.8" type="github" pages="4">
   <diagram id="8cKmaSwK6WJSGoCFpQgA" name="DNS">
     <mxGraphModel dx="1021" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -312,7 +312,7 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="Ff50zL4wBcD5ZscaE2Nx-1" source="Ff50zL4wBcD5ZscaE2Nx-31" target="Ff50zL4wBcD5ZscaE2Nx-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-31" value="Transport Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-31" value="Transport Message-Exchange" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="680" y="310" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-43" value="Standardized Messaging&lt;br&gt; API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
@@ -327,7 +327,7 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="Ff50zL4wBcD5ZscaE2Nx-1" source="Ff50zL4wBcD5ZscaE2Nx-50" target="Ff50zL4wBcD5ZscaE2Nx-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-50" value="Transport Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-50" value="Transport Message-Exchange" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="20" y="310" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-56" value="MLS/Ratcheting Trees Algorithms&lt;br&gt; for Groups" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
