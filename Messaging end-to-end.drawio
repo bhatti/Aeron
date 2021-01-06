@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-06T00:30:33.657Z" agent="5.0 (Macintosh)" etag="UZiTIO-u0lXKpoWe201N" version="14.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-06T00:34:50.712Z" agent="5.0 (Macintosh)" etag="pndOcZgjeAENXkTVRzCt" version="14.1.8" type="github" pages="4">
   <diagram id="8cKmaSwK6WJSGoCFpQgA" name="DNS">
     <mxGraphModel dx="1021" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -288,11 +288,11 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-12" value="&lt;b&gt;&amp;nbsp;Decentralized Key Exchange&lt;br&gt;Server&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="740" y="100" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-13" value="SMTP/P2P&lt;br&gt;XMPP/IRC" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
-          <mxGeometry x="330" y="210" width="120" height="80" as="geometry" />
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-13" value="SMTP/P2P&lt;br&gt;XMPP/IRC" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
+          <mxGeometry x="305" y="206" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-14" value="SMTP/P2P&lt;br&gt;XMPP/IRC" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
-          <mxGeometry x="480" y="210" width="120" height="80" as="geometry" />
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-14" value="SMTP/P2P&lt;br&gt;XMPP/IRC" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
+          <mxGeometry x="520" y="206" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-17" value="Delivery Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="20" y="360" width="240" height="50" as="geometry" />
@@ -395,6 +395,12 @@
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-75" value="Keys Updates and&lt;br&gt;Validation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="100" y="460" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7-bWntBNTCczbUPShmP6-2" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;endSize=6;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413.5" y="245.5" as="sourcePoint" />
+            <mxPoint x="526.5" y="245.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
