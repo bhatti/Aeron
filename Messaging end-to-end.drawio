@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-07T02:12:35.145Z" agent="5.0 (Macintosh)" etag="I_zUfyIxbCrD_1C_bSfR" version="14.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-07T02:13:07.237Z" agent="5.0 (Macintosh)" etag="rudaH3C4svDC1aKbOSZw" version="14.1.8" type="github" pages="4">
   <diagram id="8cKmaSwK6WJSGoCFpQgA" name="DNS">
     <mxGraphModel dx="1021" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -312,7 +312,7 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="Ff50zL4wBcD5ZscaE2Nx-1" source="Ff50zL4wBcD5ZscaE2Nx-31" target="Ff50zL4wBcD5ZscaE2Nx-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-31" value="Transport Message-Exchange" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-31" value="Message-Exchange Transport" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="680" y="310" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-43" value="Standardized Messaging&lt;br&gt; API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
@@ -327,7 +327,7 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="Ff50zL4wBcD5ZscaE2Nx-1" source="Ff50zL4wBcD5ZscaE2Nx-50" target="Ff50zL4wBcD5ZscaE2Nx-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-50" value="Transport Message-Exchange" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-50" value="Message-Exchange Transport" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="20" y="310" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-56" value="MLS/Ratcheting Trees Algorithms&lt;br&gt; for Groups" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
@@ -398,8 +398,8 @@
         </mxCell>
         <mxCell id="7-bWntBNTCczbUPShmP6-2" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;endSize=6;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="413.5" y="245.5" as="sourcePoint" />
-            <mxPoint x="526.5" y="245.5" as="targetPoint" />
+            <mxPoint x="415.5" y="245.5" as="sourcePoint" />
+            <mxPoint x="528.5" y="245.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
