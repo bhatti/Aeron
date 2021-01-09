@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-08T17:28:36.478Z" agent="5.0 (Macintosh)" etag="a6ohKpdqX_oPLn9eKfna" version="14.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-09T18:25:11.427Z" agent="5.0 (Macintosh)" etag="XKt6Su217awfYBOohpv7" version="14.1.8" type="github" pages="4">
   <diagram id="8cKmaSwK6WJSGoCFpQgA" name="DNS">
     <mxGraphModel dx="1021" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -282,16 +282,16 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-5" value="&lt;b&gt;Decentralized Identity&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="200" y="82" width="179" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-6" value="&lt;b&gt;Decentralized Files Sharing&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-6" value="&lt;b&gt;Decentralized Storage&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="379" y="82" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-12" value="&lt;b&gt;&amp;nbsp;Decentralized Key Exchange&lt;br&gt;Server&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-12" value="&lt;b&gt;Peer-to-Peer Communication&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="740" y="82" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-13" value="SMTP/P2P&lt;br&gt;XMPP/IRC" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-13" value="SMTP/P2P&lt;br&gt;XMPP/Tor" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="305" y="220" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-14" value="SMTP/P2P&lt;br&gt;XMPP/IRC" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-14" value="SMTP/P2P&lt;br&gt;XMPP/Tor" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="520" y="220" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-17" value="Delivery Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
@@ -438,6 +438,12 @@
             <mxPoint x="412.5" y="259.5" as="sourcePoint" />
             <mxPoint x="525.5" y="259.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7-bWntBNTCczbUPShmP6-5" value="Protocol Birdge" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+          <mxGeometry x="259" y="310" width="71" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7-bWntBNTCczbUPShmP6-6" value="Protocol Birdge" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+          <mxGeometry x="609" y="310" width="71" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
