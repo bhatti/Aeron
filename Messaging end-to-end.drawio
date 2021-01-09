@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-09T18:25:11.427Z" agent="5.0 (Macintosh)" etag="XKt6Su217awfYBOohpv7" version="14.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-09T18:25:37.877Z" agent="5.0 (Macintosh)" etag="YsK7HZiEOM7IckKIbdhw" version="14.1.8" type="github" pages="4">
   <diagram id="8cKmaSwK6WJSGoCFpQgA" name="DNS">
     <mxGraphModel dx="1021" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -440,10 +440,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7-bWntBNTCczbUPShmP6-5" value="Protocol Birdge" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="259" y="310" width="71" height="50" as="geometry" />
+          <mxGeometry x="259" y="310" width="81" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7-bWntBNTCczbUPShmP6-6" value="Protocol Birdge" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
-          <mxGeometry x="609" y="310" width="71" height="50" as="geometry" />
+          <mxGeometry x="600" y="310" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
