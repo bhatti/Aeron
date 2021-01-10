@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T00:35:38.937Z" agent="5.0 (Macintosh)" etag="l8uTbRcd9H42VT77Uz-v" version="14.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-10T02:31:01.503Z" agent="5.0 (Macintosh)" etag="JSWygC7JKE8LiLR__G02" version="14.1.8" type="github" pages="4">
   <diagram id="8cKmaSwK6WJSGoCFpQgA" name="DNS">
     <mxGraphModel dx="1021" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -266,7 +266,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="w3AVaQ9Y-nwT4F0Dn3K_" name="layers">
-    <mxGraphModel dx="1186" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1021" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-0" />
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-1" parent="Ff50zL4wBcD5ZscaE2Nx-0" />
@@ -453,10 +453,10 @@
             <mxPoint x="545.5" y="259.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7-bWntBNTCczbUPShmP6-5" value="Protocol Birdge" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+        <mxCell id="7-bWntBNTCczbUPShmP6-5" value="Protocol Birdge" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="279" y="345" width="81" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7-bWntBNTCczbUPShmP6-6" value="Protocol Birdge" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
+        <mxCell id="7-bWntBNTCczbUPShmP6-6" value="Protocol Birdge" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
           <mxGeometry x="620" y="345" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7-bWntBNTCczbUPShmP6-11" value="Messaging App" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="Ff50zL4wBcD5ZscaE2Nx-1">
