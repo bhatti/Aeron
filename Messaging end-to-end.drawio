@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T03:34:36.833Z" agent="5.0 (Macintosh)" etag="yCjrM418egOtws4L0SQS" version="14.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-11T03:36:01.679Z" agent="5.0 (Macintosh)" etag="r6wzScZ4mZPORvBd4q7q" version="14.1.8" type="github" pages="4">
   <diagram id="8cKmaSwK6WJSGoCFpQgA" name="DNS">
     <mxGraphModel dx="1021" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -343,7 +343,7 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-31" value="Message-Exchange Transport" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="700" y="345" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-43" value="Standardized Messaging&lt;br&gt; API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-43" value="Messaging Adapter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="280" y="395" width="80" height="310" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="Ff50zL4wBcD5ZscaE2Nx-1" source="Ff50zL4wBcD5ZscaE2Nx-50" target="Ff50zL4wBcD5ZscaE2Nx-59" edge="1">
@@ -396,7 +396,7 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-66" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Mobile UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="540" y="395" width="80" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-67" value="Standardized Messaging&lt;br&gt; API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-67" value="Messaging Adapter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="620" y="395" width="80" height="310" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-28" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Local Keys Wallet&lt;br&gt;(Encrypted)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
