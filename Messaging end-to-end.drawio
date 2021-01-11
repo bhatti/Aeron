@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T02:31:01.503Z" agent="5.0 (Macintosh)" etag="JSWygC7JKE8LiLR__G02" version="14.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-11T03:31:59.093Z" agent="5.0 (Macintosh)" etag="tNBtMz8AhCbzn7YpuINQ" version="14.1.8" type="github" pages="4">
   <diagram id="8cKmaSwK6WJSGoCFpQgA" name="DNS">
     <mxGraphModel dx="1021" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -303,7 +303,7 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-17" value="Delivery Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="40" y="395" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-23" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-23" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Mobile UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="360" y="395" width="80" height="360" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-29" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Encryption Libraries&lt;/div&gt;&lt;div&gt;(Olm / Megolm / Double Ratchet)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
@@ -393,7 +393,7 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-60" value="&lt;b&gt;Notification / Presence&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="580" y="82" width="179" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-66" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-66" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Mobile UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="540" y="395" width="80" height="360" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-67" value="Standardized Messaging&lt;br&gt; API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
