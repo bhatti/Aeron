@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T05:09:15.122Z" agent="5.0 (Macintosh)" etag="uRLjzASvKJcWAzWoS8-X" version="14.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-12T16:18:03.306Z" agent="5.0 (Macintosh)" etag="OFYrsW3nCI8cRmdWwenq" version="14.1.8" type="github" pages="4">
   <diagram id="8cKmaSwK6WJSGoCFpQgA" name="DNS">
     <mxGraphModel dx="1021" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -390,7 +390,7 @@
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-59" value="&lt;b&gt;&amp;nbsp;Decentralized Key Exchange&lt;br&gt;Server&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="40" y="82" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-60" value="&lt;b&gt;Notification / Presence&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
+        <mxCell id="Ff50zL4wBcD5ZscaE2Nx-60" value="&lt;b&gt;Federation&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
           <mxGeometry x="580" y="82" width="179" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ff50zL4wBcD5ZscaE2Nx-66" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Messaging&lt;br&gt; UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="Ff50zL4wBcD5ZscaE2Nx-1" vertex="1">
