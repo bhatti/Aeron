@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-23T21:56:29.082Z" agent="5.0 (Macintosh)" etag="Cr8drYm3iMri5FthzkIR" version="14.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-03-23T21:57:05.980Z" agent="5.0 (Macintosh)" etag="hEeVVLEHkM2F14AAIYva" version="14.5.1" type="github" pages="5">
   <diagram id="6ea94d27-68a0-82f6-574a-6ad052f4ca6a" name="2018-arch">
     <mxGraphModel dx="786" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1049,7 +1049,7 @@
         <mxCell id="eLinA3Lqqf_QuU91YYcW-70" value="Intel DB" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" parent="NXCKUwLIyQ_sOvknzG8g-1" vertex="1">
           <mxGeometry x="635.75" y="320" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="eLinA3Lqqf_QuU91YYcW-75" value="Minio" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" parent="NXCKUwLIyQ_sOvknzG8g-1" vertex="1">
+        <mxCell id="eLinA3Lqqf_QuU91YYcW-75" value="Minio / Content-API" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" parent="NXCKUwLIyQ_sOvknzG8g-1" vertex="1">
           <mxGeometry x="168.25" y="183" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="eLinA3Lqqf_QuU91YYcW-79" value="S3 raw artifacts/binaries" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" parent="NXCKUwLIyQ_sOvknzG8g-1" vertex="1">
