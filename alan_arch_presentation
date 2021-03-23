@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-23T21:54:48.164Z" agent="5.0 (Macintosh)" etag="-aawaBFmTCNxO6ye7SW-" version="14.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-03-23T21:56:29.082Z" agent="5.0 (Macintosh)" etag="Cr8drYm3iMri5FthzkIR" version="14.5.1" type="github" pages="5">
   <diagram id="6ea94d27-68a0-82f6-574a-6ad052f4ca6a" name="2018-arch">
     <mxGraphModel dx="786" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1007,6 +1007,9 @@
             <mxPoint x="437.375" y="566.7350000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="i6qXaws7V80Rl9oiPXXH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NXCKUwLIyQ_sOvknzG8g-1" source="eLinA3Lqqf_QuU91YYcW-46" target="i6qXaws7V80Rl9oiPXXH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eLinA3Lqqf_QuU91YYcW-46" value="" style="dashed=0;html=1;shape=mxgraph.aws3.worker;fillColor=#D9A741;gradientColor=none;" parent="NXCKUwLIyQ_sOvknzG8g-1" vertex="1">
           <mxGeometry x="313.75" y="527" width="60" height="63" as="geometry" />
         </mxCell>
@@ -1050,7 +1053,7 @@
           <mxGeometry x="168.25" y="183" width="76.5" height="93" as="geometry" />
         </mxCell>
         <mxCell id="eLinA3Lqqf_QuU91YYcW-79" value="S3 raw artifacts/binaries" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" parent="NXCKUwLIyQ_sOvknzG8g-1" vertex="1">
-          <mxGeometry x="110.75" y="512.13" width="76.5" height="93" as="geometry" />
+          <mxGeometry x="80" y="483" width="69.25" height="82" as="geometry" />
         </mxCell>
         <mxCell id="eLinA3Lqqf_QuU91YYcW-82" value="yaap" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.instances;fillColor=#F58534;gradientColor=none;fontSize=12;" parent="NXCKUwLIyQ_sOvknzG8g-1" vertex="1">
           <mxGeometry x="519.25" y="581" width="60" height="63" as="geometry" />
@@ -1072,6 +1075,9 @@
         </mxCell>
         <mxCell id="i6qXaws7V80Rl9oiPXXH-1" value="CLI Tools" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="NXCKUwLIyQ_sOvknzG8g-1">
           <mxGeometry x="436.75" y="545" width="312.5" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="i6qXaws7V80Rl9oiPXXH-2" value="codesign" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="NXCKUwLIyQ_sOvknzG8g-1">
+          <mxGeometry x="175.75" y="564" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
