@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T21:26:43.597Z" agent="5.0 (Macintosh)" etag="hPy3qTbP3ilyFzAqo6q3" version="14.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-04-21T21:28:37.542Z" agent="5.0 (Macintosh)" etag="JUtyhHERSjz3Be4qx88V" version="14.6.5" type="github" pages="6">
   <diagram id="6ea94d27-68a0-82f6-574a-6ad052f4ca6a" name="2018-arch">
     <mxGraphModel dx="786" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1252,6 +1252,12 @@
         </mxCell>
         <mxCell id="OSPIQlT_KOdv3WZXtAHV-95" value="Artifacts storage in platform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LGI23AU0s_KhaZlgB6zw-1">
           <mxGeometry x="640" y="155.5" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OSPIQlT_KOdv3WZXtAHV-97" value="Dynamic jobs executed by lode-runner-runner" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LGI23AU0s_KhaZlgB6zw-1">
+          <mxGeometry x="470" y="498" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OSPIQlT_KOdv3WZXtAHV-98" value="Misc tools executed by lode-runner-runner" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LGI23AU0s_KhaZlgB6zw-1">
+          <mxGeometry x="39" y="686" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
