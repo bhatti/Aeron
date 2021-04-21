@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-21T21:23:47.283Z" agent="5.0 (Macintosh)" etag="M67TBef5AtBb8E8wS23y" version="14.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-04-21T21:26:43.597Z" agent="5.0 (Macintosh)" etag="hPy3qTbP3ilyFzAqo6q3" version="14.6.5" type="github" pages="6">
   <diagram id="6ea94d27-68a0-82f6-574a-6ad052f4ca6a" name="2018-arch">
     <mxGraphModel dx="786" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1157,7 +1157,7 @@
           <mxGeometry y="30" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OSPIQlT_KOdv3WZXtAHV-55" value="&amp;nbsp;Minio/Content-API" style="outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#B6BABF;dashed=0;strokeColor=#66CC00;" vertex="1" parent="LGI23AU0s_KhaZlgB6zw-1">
-          <mxGeometry x="650" y="160" width="160" height="150" as="geometry" />
+          <mxGeometry x="650" y="175.5" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="OSPIQlT_KOdv3WZXtAHV-56" value="Config" style="html=1;strokeColor=#B09500;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#000000;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_vision_api;fillColor=#67AB9F;" vertex="1" parent="LGI23AU0s_KhaZlgB6zw-1">
           <mxGeometry x="50" y="75" width="50" height="40" as="geometry" />
@@ -1169,13 +1169,13 @@
           <mxGeometry x="200" y="75" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OSPIQlT_KOdv3WZXtAHV-59" value="User Binaries&lt;br&gt;Test Runners" style="html=1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_vision_api;strokeColor=#9673A6;fillColor=#7EA6E0;" vertex="1" parent="LGI23AU0s_KhaZlgB6zw-1">
-          <mxGeometry x="740" y="180" width="50" height="40" as="geometry" />
+          <mxGeometry x="740" y="195.5" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OSPIQlT_KOdv3WZXtAHV-60" value="Screenshots" style="html=1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_vision_api;strokeColor=#9673A6;fillColor=#B5739D;" vertex="1" parent="LGI23AU0s_KhaZlgB6zw-1">
-          <mxGeometry x="663" y="180" width="50" height="40" as="geometry" />
+          <mxGeometry x="663" y="195.5" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OSPIQlT_KOdv3WZXtAHV-61" value="Artifacts &lt;br&gt;(Har/Beat/Logs)" style="html=1;strokeColor=#BD7000;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#000000;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_vision_api;fillColor=#66CC00;" vertex="1" parent="LGI23AU0s_KhaZlgB6zw-1">
-          <mxGeometry x="700" y="240" width="50" height="40" as="geometry" />
+          <mxGeometry x="700" y="255.5" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OSPIQlT_KOdv3WZXtAHV-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.303;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LGI23AU0s_KhaZlgB6zw-1" source="OSPIQlT_KOdv3WZXtAHV-63" target="OSPIQlT_KOdv3WZXtAHV-68">
           <mxGeometry relative="1" as="geometry" />
@@ -1218,7 +1218,7 @@
           <mxGeometry x="170" y="390" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OSPIQlT_KOdv3WZXtAHV-77" value="LR database" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#67AB9F;" vertex="1" parent="LGI23AU0s_KhaZlgB6zw-1">
-          <mxGeometry x="520" y="325.5" width="150" height="80" as="geometry" />
+          <mxGeometry x="515" y="370" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OSPIQlT_KOdv3WZXtAHV-78" value="-spring batch&#xa;-job_requests" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="OSPIQlT_KOdv3WZXtAHV-77">
           <mxGeometry y="30" width="150" height="50" as="geometry" />
@@ -1246,6 +1246,12 @@
         </mxCell>
         <mxCell id="OSPIQlT_KOdv3WZXtAHV-92" value="IOS" style="html=1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;shape=mxgraph.gcp2.hexIcon;prIcon=cloud_vision_api;strokeColor=#9673A6;fillColor=#9999FF;" vertex="1" parent="LGI23AU0s_KhaZlgB6zw-1">
           <mxGeometry x="565" y="555" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OSPIQlT_KOdv3WZXtAHV-94" value="Major database tables in platform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LGI23AU0s_KhaZlgB6zw-1">
+          <mxGeometry x="310" y="20" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OSPIQlT_KOdv3WZXtAHV-95" value="Artifacts storage in platform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LGI23AU0s_KhaZlgB6zw-1">
+          <mxGeometry x="640" y="155.5" width="190" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
